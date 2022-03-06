@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <header>
+       <h1>Completa el siguiente formulario para que recibamos tu orden</h1> 
+    </header>
+
+    <form>
+
+        <label for= "nombre"> Nombre del pedido </label>
+        <br>
+        <input type="text" id="nombre"> <br>
+
+        <label for= "Telefono"> Telefono </label>
+        <br>
+        <input type="text" id="Telefono"> <br>
+
+        <label for= "Correo"> Correo </label>
+        <br>
+        <input type="email" id="Correo"> <br>
+
+        <label for= "Caracteristicas"> Breve descripcion del pastel </label>
+        <br>
+        <textarea id="Caracteristicas" rows="5"></textarea> <br>
+
+       <label for="sabor">Sabor del pastel</label><br>
+        <select id="sabor" name="sabor">
+            <option>Tres leches</option>
+            <option>Mocca</option>
+            <option>Vainilla</option>
+            <option>Fresa</option>
+            <option>Chocolate</option>
+            
+        </select> 
+         <br>  
+
+      <label for="Decoraciones"> Decoraciones</label><br>
+        <select id="Decoraciones" name="Decoraciones">
+                <option>Fruta</option>
+                <option>Merengue</option>
+                <option>Viruta de chocolate</option>
+                <option>Banner feliz cumpleanios</option>
+                <option>Esferas del dragon</option><br>
+        </select>
+        <br>  
+
+
+    <label for= "Fecha"> Fecha de entrega </label>
+    <br>
+    <input type="date" id="Fecha" name="date"> <br>
+
+
+    
+    <button type="submit"> Enviar formulario </button>
+
+
+    </form>
+</body>
+</html>
